@@ -27,7 +27,49 @@ body.home {
 
 .platform-links [class^="icon-"],
 .platform-links [class*=" icon-"] {
-  font-size: 34px !important;
+  font-size: 30px !important;
+}
+
+.platform-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.platform-links a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.platform-links-wrapper {
+  width: 100%;
+}
+
+.platform-links-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #about .about__profile-picture {
+    justify-content: center;
+  }
+
+  .platform-links {
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .platform-links-desktop {
+    display: none;
+  }
+
+  .platform-links-mobile {
+    display: block;
+    margin: 1rem 0;
+  }
 }
 
 #experience .experience__company,

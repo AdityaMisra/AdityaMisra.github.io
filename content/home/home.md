@@ -12,16 +12,29 @@ draft = false
   imgScale="0.8"
 >}}
 
-{{< platform-links >}}
-  {{< link icon="linkedin" url="https://www.linkedin.com/in/misra-aditya/" >}}
-  {{< link icon="square-github" url="https://github.com/AdityaMisra" >}}
-  {{< link icon="medium" url="https://medium.com/@aditya_misra5" >}}
-  {{< link icon="x-twitter" url="https://twitter.com/realadityamisra" >}}
-  {{< link icon="instagram" url="https://www.instagram.com/aditya.misra/" >}}
-  {{< link icon="email" url="mailto:amisra14@yahoo.co.uk" >}}
-{{< /platform-links >}}
+<div class="platform-links-wrapper platform-links-desktop">
+  {{< platform-links >}}
+    {{< link icon="linkedin" url="https://www.linkedin.com/in/misra-aditya/" >}}
+    {{< link icon="square-github" url="https://github.com/AdityaMisra" >}}
+    {{< link icon="medium" url="https://medium.com/@aditya_misra5" >}}
+    {{< link icon="x-twitter" url="https://twitter.com/realadityamisra" >}}
+    {{< link icon="instagram" url="https://www.instagram.com/aditya.misra/" >}}
+    {{< link icon="email" url="mailto:amisra14@yahoo.co.uk" >}}
+  {{< /platform-links >}}
+</div>
 
 {{< /showcase-section >}}
+
+<div class="platform-links-wrapper platform-links-mobile">
+  {{< platform-links >}}
+    {{< link icon="linkedin" url="https://www.linkedin.com/in/misra-aditya/" >}}
+    {{< link icon="square-github" url="https://github.com/AdityaMisra" >}}
+    {{< link icon="medium" url="https://medium.com/@aditya_misra5" >}}
+    {{< link icon="x-twitter" url="https://twitter.com/realadityamisra" >}}
+    {{< link icon="instagram" url="https://www.instagram.com/aditya.misra/" >}}
+    {{< link icon="email" url="mailto:amisra14@yahoo.co.uk" >}}
+  {{< /platform-links >}}
+</div>
 
 {{< about-section
   sectionId="about"
