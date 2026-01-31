@@ -130,3 +130,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Jekyll / GitHub Pages
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+
+# Hugo module theme (local checkout)
+themes/adritian-free-hugo-theme/

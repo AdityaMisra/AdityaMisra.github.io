@@ -1,0 +1,179 @@
+baseURL = "https://adityamisra.github.io/"
+title = "Aditya Misra"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+  topic = "topics"
+
+[module]
+[[module.imports]]
+  path = "github.com/zetxek/adritian-free-hugo-theme"
+
+[[module.mounts]]
+  source = "archetypes"
+  target = "archetypes"
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "i18n"
+  target = "i18n"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "node_modules/bootstrap/scss"
+  target = "assets/scss/bootstrap"
+[[module.mounts]]
+  source = "node_modules/bootstrap/dist/js"
+  target = "assets/js/bootstrap"
+[[module.mounts]]
+  source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+  target = "assets/js/vendor/bootstrap.bundle.min.js"
+[[module.mounts]]
+  source = "node_modules/bootstrap-print-css/css/bootstrap-print.css"
+  target = "assets/css/bootstrap-print.css"
+
+[params]
+description = "Aditya Misra — backend and platform engineer. I build scalable products and share learnings through mentoring, consulting, and writing."
+images = ["/img/cute-kid-riding-rocket.jpg"]
+sections = [
+  "showcase",
+  "about",
+  "now",
+  "experience",
+  "mentoring",
+  "writing",
+  "education",
+  "skills",
+  "interests",
+]
+homepageExperienceCount = 4
+
+[params.seo]
+siteName = "Aditya Misra"
+siteDescription = "Aditya Misra — backend and platform engineer. I build scalable products and share learnings through mentoring, consulting, and writing."
+siteImage = "/img/cute-kid-riding-rocket.jpg"
+
+[params.social]
+twitter = "realadityamisra"
+
+[params.plugins]
+[[params.plugins.css]]
+  URL = "css/custom.css"
+[[params.plugins.css]]
+  URL = "css/adritian-icons.css"
+[[params.plugins.css]]
+  URL = "css/bootstrap-print.css"
+
+[[params.plugins.js]]
+  URL = "js/rad-animations.js"
+[[params.plugins.js]]
+  URL = "js/sticky-header.js"
+[[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+[[params.plugins.scss]]
+  URL = "scss/adritian.scss"
+
+[params.favicons]
+source = "img/rocket.jpg"
+favicon = "/icons/icon-32.png"
+
+[build]
+  writeStats = true
+
+[build.buildStats]
+  enabledFor = ["scss"]
+  disableClasses = false
+  disableIDs = false
+  disableTags = false
+  enable = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+[languages.en]
+  disabled = false
+  languageCode = "en"
+  languageDirection = "ltr"
+  languageName = "English"
+  title = ""
+  weight = 0
+
+[languages.en.menus]
+[[languages.en.menus.header]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+[[languages.en.menus.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+[[languages.en.menus.header]]
+  name = "Now"
+  URL = "#now"
+  weight = 3
+[[languages.en.menus.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 4
+[[languages.en.menus.header]]
+  name = "Mentoring"
+  URL = "#mentoring"
+  weight = 5
+[[languages.en.menus.header]]
+  name = "Writing"
+  URL = "#writing"
+  weight = 6
+[[languages.en.menus.header]]
+  name = "Education"
+  URL = "#education"
+  weight = 7
+[[languages.en.menus.header]]
+  name = "Skills"
+  URL = "#skills"
+  weight = 8
+[[languages.en.menus.header]]
+  name = "Interests"
+  URL = "#interests"
+  weight = 9
+
+[[languages.en.menus.footer]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+[[languages.en.menus.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+[[languages.en.menus.footer]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 3
+[[languages.en.menus.footer]]
+  name = "Mentoring"
+  URL = "#mentoring"
+  weight = 4
+[[languages.en.menus.footer]]
+  name = "Writing"
+  URL = "#writing"
+  weight = 5
