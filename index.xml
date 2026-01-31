@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://adityamisra.github.io/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://adityamisra.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Engineer — Money View</title><link>https://adityamisra.github.io/experience/money-view/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/experience/money-view/</guid><description>&lt;ul&gt;
+&lt;li&gt;Working as a part of the Growth Team.&lt;/li&gt;
+&lt;li&gt;Designed &amp;amp; developed a platform, that is used by our partners to integrate with our lending system.&lt;/li&gt;
+&lt;li&gt;Collaborate with cross-functional teams including engineering, product, design &amp;amp; marketing to build scalable products for different platforms.&lt;/li&gt;
+&lt;li&gt;Built a scalable data pipeline for tracking all the events across different clients &amp;amp; servers.&lt;/li&gt;
+&lt;li&gt;Designed &amp;amp; developed an engine that can push an in-app update to the android app based on rules.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Platform Engineer — Treebo Hotels</title><link>https://adityamisra.github.io/experience/treebo-hotels/</link><pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/experience/treebo-hotels/</guid><description>&lt;ul&gt;
+&lt;li&gt;Designed &amp;amp; architected dockerized ELK for log aggregation.&lt;/li&gt;
+&lt;li&gt;Designed &amp;amp; architected automated dockerized RabbitMQ cluster.&lt;/li&gt;
+&lt;li&gt;Gave tech-talk on Docker and Docker-compose best practices and incorporated them in multiple applications.&lt;/li&gt;
+&lt;li&gt;Designed &amp;amp; developed tools to improve business performance:
+&lt;ul&gt;
+&lt;li&gt;Used Serverless framework to auto-generate 3P reports weekly.&lt;/li&gt;
+&lt;li&gt;Built tools to measure IT performance metrics: lead time to change, frequency of releases, change failure rate &amp;amp; mean time to recovery.&lt;/li&gt;
+&lt;li&gt;Incident Alerting: Enhanced monitoring and tracking of the JIRA tasks and RCAs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PgBouncer clustering: Designed the connection pooling for AWS RDS.&lt;/li&gt;
+&lt;li&gt;Introduced teams to Load Testing best practices and helped them in load testing their applications.&lt;/li&gt;
+&lt;li&gt;Worked with other developers, QA teams and peers to design and develop automated solutions and tools for monitoring.&lt;/li&gt;
+&lt;li&gt;Think about the performance all the time, and proactively work to make our platform better.&lt;/li&gt;
+&lt;li&gt;Planned and architected secrets management strategy.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Full Stack Developer — BigBasket</title><link>https://adityamisra.github.io/experience/bigbasket/</link><pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/experience/bigbasket/</guid><description>&lt;ul&gt;
+&lt;li&gt;Worked as a part of product and features development team.&lt;/li&gt;
+&lt;li&gt;Designed and developed a priority order flow for members. This feature allows exclusive access to promotions, evouchers, and priority slots.&lt;/li&gt;
+&lt;li&gt;Used AWS Lambda for digitally signing PDF Invoices for customers. (For GST)&lt;/li&gt;
+&lt;li&gt;Integrated with third party eSodexo to allow an easy payment flow for members.&lt;/li&gt;
+&lt;li&gt;Automated testing using python selenium.&lt;/li&gt;
+&lt;li&gt;Worked on stored procedures to provide optimal execution for routine scripts that were less performant.&lt;/li&gt;
+&lt;li&gt;Integrated third-party API for the entire last-mile delivery for BigBasket. The solution gives an integration to cater to the last mile routing, tracking of delivery vehicles, and reporting.&lt;/li&gt;
+&lt;li&gt;Integrated with third-party logistics (delivery services) Bike Ninja and Shadowfax, with BB backend for delivering small orders and express orders.&lt;/li&gt;
+&lt;li&gt;Implemented a feature for stocking products in a warehouse in the most optimal way, this solution increases the picking efficiency, reduces replenishment requirements and maximizes throughput by determining the best slot locations for all products in the DC.&lt;/li&gt;
+&lt;li&gt;Designed and developed a portal for order allocation using Backbone.js for frontend and python for the backend.&lt;/li&gt;
+&lt;li&gt;Developed the banner engine for the website. Provided a feature to link banners to other entities in the database, displaying banners based on the entity&amp;rsquo;s availability.&lt;/li&gt;
+&lt;li&gt;Designed and developed core logic for handling delivery charges for different types of orders.&lt;/li&gt;
+&lt;li&gt;Worked on an algorithm to display products specific to the customer’s locality based on the product’s availability.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Associate Analyst — Manhattan Associates R&amp;D</title><link>https://adityamisra.github.io/experience/manhattan-associates/</link><pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/experience/manhattan-associates/</guid><description>&lt;ul&gt;
+&lt;li&gt;During internship built:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Order Management System&lt;/strong&gt;&lt;br&gt;
+This system the tracked the complete lifecycle of an order. It was completely developed on a C++ platform &amp;amp; oracle database.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrated Single Sign-On&lt;/strong&gt;&lt;br&gt;
+The project involved the implementation of two processes Authentication and Authorization. It was completely developed using Java &amp;amp; oracle database.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Worked as an Analyst with the Slotting Optimization R&amp;amp;D team.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Bangalore Institute of Technology</title><link>https://adityamisra.github.io/education/bangalore-institute-of-technology/</link><pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/education/bangalore-institute-of-technology/</guid><description/></item><item><title>Footer</title><link>https://adityamisra.github.io/footer/footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/footer/footer/</guid><description>&lt;section class="section section--border-bottom rad-animation-group section--padding"&gt;
+ &lt;div class="container d-flex justify-content-center align-items-center"&gt;
+ &lt;div class="row rad-fade-down"&gt;
+ &lt;div class="col-12 text-center"&gt;
+ 
+ 
+ &lt;div class="text-section__content"&gt;
+ Want to connect? Email me at &lt;a href="mailto:amisra14@yahoo.co.uk"&gt;&lt;a href="mailto:amisra14@yahoo.co.uk"&gt;amisra14@yahoo.co.uk&lt;/a&gt;&lt;/a&gt;
+or reach me on &lt;a href="https://www.linkedin.com/in/misra-aditya/"&gt;LinkedIn&lt;/a&gt;.
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;</description></item><item><title>Home</title><link>https://adityamisra.github.io/home/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://adityamisra.github.io/home/home/</guid><description>&lt;section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down"&gt;
+ &lt;div&gt;
+ 
+
+
+ 
+
+ &lt;div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate"&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"&gt;
+ &lt;h1 class="display-1"&gt;
+ Welcome to the demo
+ &lt;/h1&gt;
+ &lt;h2 class="display-5"&gt;
+ &lt;span&gt;An Engineer with dreams to disrupt the tech.&lt;/span&gt;
+ &lt;/h2&gt;
+ &lt;div class="lead"&gt;
+ Backend and platform engineer focused on building reliable, scalable systems and great developer experience. I care about pragmatic architecture, clean interfaces, and teams that ship with confidence. I share learnings through mentoring, consulting, and writing.
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image"&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+ 
+
+
+ &lt;picture class=""&gt;
+ 
+ 
+
+ &lt;source srcset="https://adityamisra.github.io/images/showcase/showcase_hu_a106e70e585db075.webp 1x, https://adityamisra.github.io/images/showcase/showcase_hu_d80b0266816e9593.webp 2x" type="image/webp" /&gt;
+ &lt;source srcset="https://adityamisra.github.io/images/showcase/showcase_hu_baaac3623b8bc960.png 1x, https://adityamisra.github.io/images/showcase/showcase_hu_a9497079c2613742.png 2x" type="image/png"&gt;
+
+ &lt;img
+ width="1264"
+ height="1228"
+ class="lozad img-responsive "
+ data-src="https://adityamisra.github.io/images/showcase/showcase_hu_baaac3623b8bc960.png"
+ alt=''
+ src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+ loading="lazy"
+ decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+
+
+
+
+ &lt;/div&gt;
+ &lt;div class="col-12 inner-content"&gt;
+ 
+
+
+
+
+
+&lt;div class="container"&gt;
+ &lt;div class="row platform-links shortcode"&gt;
+ &lt;div class="col-12"&gt;
+ 
+ 
+ &lt;a
+ href="https://www.linkedin.com/in/misra-aditya/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="linkedin"
+ &gt;&lt;i class="icon-linkedin"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://github.com/AdityaMisra"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-github"
+ &gt;&lt;i class="icon-square-github"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://medium.com/@aditya_misra5"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="medium"
+ &gt;&lt;i class="icon-medium"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://twitter.com/realadityamisra"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="x-twitter"
+ &gt;&lt;i class="icon-x-twitter"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://www.instagram.com/aditya.misra/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="instagram"
+ &gt;&lt;i class="icon-instagram"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="mailto:amisra14@yahoo.co.uk"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="email"
+ &gt;&lt;i class="icon-email"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class="home-cta-group"&gt;
+ &lt;a class="btn btn-primary" href="mailto:amisra14@yahoo.co.uk?subject=Mentoring%20or%20Consulting%20Inquiry"&gt;Start a conversation&lt;/a&gt;
+&lt;/div&gt;
+
+
+ &lt;/div&gt;
+ 
+
+ &lt;/div&gt;
+
+
+ &lt;div class="row platform-links"&gt;
+ &lt;div class="col-12"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+&lt;/section&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+&lt;section id="about" class="section rad-animation-group pb-0"&gt;
+ &lt;div class="rad-fade-down"&gt;
+ &lt;div class="row d-flex flex-column-reverse flex-md-row"&gt;
+ &lt;div class="about__profile-picture col-12 col-md-6"&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+ 
+
+
+ &lt;picture class=""&gt;
+ 
+ 
+
+ &lt;source srcset="https://adityamisra.github.io/img/aditya_profile_hu_f37db2a870f94560.webp 1x, https://adityamisra.github.io/img/aditya_profile_hu_1f94b2b28add8f7c.webp 2x" type="image/webp" /&gt;
+ &lt;source srcset="https://adityamisra.github.io/img/aditya_profile_hu_629d4fc657757489.png 1x, https://adityamisra.github.io/img/aditya_profile_hu_8e2666552fb98c54.png 2x" type="image/png"&gt;
+
+ &lt;img
+ width="278"
+ height="370"
+ class="lozad img-responsive image-left-overflow"
+ data-src="https://adityamisra.github.io/img/aditya_profile_hu_629d4fc657757489.png"
+ alt=''
+ src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+ loading="lazy"
+ decoding="async"
+ /&gt;
+ &lt;/picture&gt;
+
+ &lt;/div&gt;
+ &lt;div class="col-12 col-md-6"&gt;
+ &lt;h1&gt;About&lt;/h1&gt;
+ &lt;div class="about-me content lead"&gt;
+ I'm passionate about building products that works at scale and I believe in learning everyday. I am a mountain person. I love dogs. I like dark themes. Programming is an art for me. I have grown fond of pair programming. I like swimming more than running. I like winter.
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+&lt;section id="now" class="section section--border-bottom rad-animation-group section--padding"&gt;
+ &lt;div class="container"&gt;
+ &lt;div class="row rad-fade-down"&gt;
+ &lt;div class="col-12"&gt;
+ 
+ &lt;h2 class="section__title"&gt;What I&amp;#39;m Working On&lt;/h2&gt;
+ 
+ 
+ &lt;div class="text-section__content"&gt;
+ &lt;p&gt;I share updates and ideas on building scalable systems, developer experience, and career growth.
+The latest work shows up on my Medium and GitHub profiles.&lt;/p&gt;</description></item></channel></rss>
