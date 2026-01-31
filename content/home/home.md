@@ -5,9 +5,9 @@ draft = false
 +++
 
 {{< showcase-section
-  title="Welcome to my world!"
-  subtitle="An Engineer with dreams to disrupt the tech."
-  description="Backend and platform engineer focused on building reliable, scalable systems and great developer experience. I care about pragmatic architecture, clean interfaces, and teams that ship with confidence. I share learnings through mentoring, consulting, and writing."
+  title="Engineer. Builder. Lifelong Learner."
+  subtitle="Building technology that scales and makes an impact."
+  description="I build scalable backend systems and platforms that teams can trust. Passionate about clean design, developer experience, and continuous learning, I share insights through mentoring, consulting, and writing."
   imgSrc="images/showcase/showcase.png"
   imgScale="0.8"
 >}}
@@ -26,7 +26,7 @@ draft = false
 {{< about-section
   sectionId="about"
   title="About"
-  content="I'm passionate about building products that works at scale and I believe in learning everyday. I am a mountain person. I love dogs. I like dark themes. Programming is an art for me. I have grown fond of pair programming. I like swimming more than running. I like winter."
+  content="Engineer by profession, mountain person by soul, Londoner by postcode. I enjoy building systems that scale, learning something new daily, and convincing people dark mode is objectively superior. Dogs are great, winters are better, and pair programming proves that suffering through bugs is more fun together. Swimming is my cardio of choice, running and I have agreed to stay acquaintances."
   imgSrc="images/about/aditya_profile.png"
   imgScale="0.8"
   text_align="left"
@@ -89,7 +89,7 @@ I publish long-form notes and learnings on Medium. Follow along for updates on e
 {{< /text-section >}}
 
 {{< text-section sectionId="interests" title="Interests" >}}
-Apart from being an engineer, I love travelling. I am an avid reader and also explore podcasts and audiobooks to gain insights on different perspectives of the world. Currently, I'm reading about human behaviour & societies, and how they have evolved overtime.
+When I’m not engineering software, I’m usually planning my next trip or getting lost in a good book, podcast, or audiobook. Lately, I’ve been fascinated by human behaviour, societies, and how we’ve evolved over time.
 
-I am also a fan of sci-fi and comedy genre movies and television shows. A large amount of my free time goes into learning technology advancements in the web development world to satiate my curiosity.
+I’m also a big fan of sci-fi and comedy films and series, a good mix of futuristic imagination and light-hearted humor. A fair bit of my free time goes into keeping up with new developments in technology and web engineering, mostly driven by curiosity rather than necessity.
 {{< /text-section >}}

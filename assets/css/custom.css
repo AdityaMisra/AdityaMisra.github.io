@@ -24,3 +24,15 @@ body.home {
 #about .image-left-overflow {
   margin-left: 0;
 }
+
+.platform-links [class^="icon-"],
+.platform-links [class*=" icon-"] {
+  font-size: 34px !important;
+}
+
+#experience .experience__company,
+#experience .experience__company-name,
+#experience .experience__company-title,
+#experience .experience__company a {
+  font-size: 1.25rem;
+}
