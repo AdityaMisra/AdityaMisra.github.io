@@ -3,14 +3,14 @@
 This repo contains the source for the personal site hosted at https://adityamisra.github.io/.
 
 ## Structure
-- `index.html` — main single-page resume/portfolio
-- `css/styles.css` — primary theme styles
-- `landing_page.css` — custom overrides and CTA styling
-- `js/scripts.js` — smooth scrolling and navigation behavior
-- `assets/img/` — profile and site imagery
+- `content/` — page content in Markdown
+- `assets/` — pipeline assets (CSS, images, theme resources)
+- `static/` — static files copied as-is
+- `hugo.toml` — site configuration
+- `data/` — structured data (YAML)
 
 ## Local preview
-Open `index.html` in a browser.
+Run `hugo server` and open http://localhost:1313.
 
 ## Deploy
 Push changes to `master` and GitHub Pages serves the site.
