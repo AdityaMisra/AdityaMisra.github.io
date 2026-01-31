@@ -104,7 +104,8 @@ or reach me on &lt;a href="https://www.linkedin.com/in/misra-aditya/" target="_b
  &lt;div class="col-12 inner-content"&gt;
  
 
-
+&lt;div class="platform-links-wrapper platform-links-desktop"&gt;
+ 
 
 
 
@@ -171,10 +172,11 @@ or reach me on &lt;a href="https://www.linkedin.com/in/misra-aditya/" target="_b
  &gt;&lt;i class="icon-email"&gt;&lt;/i&gt;
  &lt;/a&gt;
 
-&lt;/div&gt;
+ &lt;/div&gt;
  &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;/div&gt;
 
 
  &lt;/div&gt;
@@ -191,6 +193,79 @@ or reach me on &lt;a href="https://www.linkedin.com/in/misra-aditya/" target="_b
 &lt;/section&gt;
 
 
+&lt;div class="platform-links-wrapper platform-links-mobile"&gt;
+ 
+
+
+
+&lt;div class="container"&gt;
+ &lt;div class="row platform-links shortcode"&gt;
+ &lt;div class="col-12"&gt;
+ 
+ 
+ &lt;a
+ href="https://www.linkedin.com/in/misra-aditya/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="linkedin"
+ &gt;&lt;i class="icon-linkedin"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://github.com/AdityaMisra"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="square-github"
+ &gt;&lt;i class="icon-square-github"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://medium.com/@aditya_misra5"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="medium"
+ &gt;&lt;i class="icon-medium"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://twitter.com/realadityamisra"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="x-twitter"
+ &gt;&lt;i class="icon-x-twitter"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="https://www.instagram.com/aditya.misra/"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="instagram"
+ &gt;&lt;i class="icon-instagram"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ 
+ 
+ &lt;a
+ href="mailto:amisra14@yahoo.co.uk"
+ target="_blank"
+ rel="noopener noreferrer"
+ aria-label="email"
+ &gt;&lt;i class="icon-email"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
 
 
 
