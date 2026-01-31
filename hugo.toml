@@ -92,7 +92,7 @@ twitter = "realadityamisra"
   URL = "scss/adritian.scss"
 
 [params.favicons]
-source = "img/rocket.jpg"
+source = "images/showcase/showcase.png"
 favicon = "/icons/icon-32.png"
 
 [build]
