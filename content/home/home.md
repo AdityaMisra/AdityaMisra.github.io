@@ -21,10 +21,6 @@ draft = false
   {{< link icon="email" url="mailto:amisra14@yahoo.co.uk" >}}
 {{< /platform-links >}}
 
-<div class="home-cta-group">
-  <a class="btn btn-primary" href="https://calendly.com/adiitya14" target="_blank" rel="noopener">Start a conversation</a>
-</div>
-
 {{< /showcase-section >}}
 
 {{< about-section
