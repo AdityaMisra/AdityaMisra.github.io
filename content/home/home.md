@@ -5,7 +5,7 @@ draft = false
 +++
 
 {{< showcase-section
-  title=""
+  title="Welcome to my world!"
   subtitle="An Engineer with dreams to disrupt the tech."
   description="Backend and platform engineer focused on building reliable, scalable systems and great developer experience. I care about pragmatic architecture, clean interfaces, and teams that ship with confidence. I share learnings through mentoring, consulting, and writing."
   imgSrc="images/showcase/showcase.png"
