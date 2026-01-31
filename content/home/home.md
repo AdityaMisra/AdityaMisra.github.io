@@ -31,7 +31,7 @@ draft = false
   sectionId="about"
   title="About"
   content="I'm passionate about building products that works at scale and I believe in learning everyday. I am a mountain person. I love dogs. I like dark themes. Programming is an art for me. I have grown fond of pair programming. I like swimming more than running. I like winter."
-  imgSrc="img/aditya_profile.png"
+  imgSrc="images/about/aditya_profile.png"
   imgScale="0.8"
   text_align="left"
 >}}
