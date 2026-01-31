@@ -35,5 +35,14 @@ What it does:
 - **Build site**: runs `hugo --minify` to generate `public/`
 - **Deploy to GitHub Pages**: pushes `public/` to `gh-pages`
 
+## Screenshots
+GitHub Actions manual run (select `master` in “Use workflow from”):
+![GitHub Actions manual run dropdown](docs/screenshots/github-actions-run-workflow.png)
+
+## Troubleshooting
+- **Workflow not found on `gh-pages`**: run the workflow from `master`; `gh-pages` only stores built output.
+- **Site not updating**: confirm GitHub Pages is set to deploy from `gh-pages` and the workflow completed successfully.
+- **Missing icons / manifest 404s**: ensure the favicon source is valid in `hugo.toml` and re-run the workflow.
+
 ## References
 - Adritian theme: https://github.com/zetxek/adritian-free-hugo-theme
