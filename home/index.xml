@@ -8,13 +8,13 @@
  &lt;div class="showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate"&gt;
  &lt;div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"&gt;
  &lt;h1 class="display-1"&gt;
- Welcome to my world!
+ Engineer. Builder. Lifelong Learner.
  &lt;/h1&gt;
  &lt;h2 class="display-5"&gt;
- &lt;span&gt;An Engineer with dreams to disrupt the tech.&lt;/span&gt;
+ &lt;span&gt;Building technology that scales and makes an impact.&lt;/span&gt;
  &lt;/h2&gt;
  &lt;div class="lead"&gt;
- Backend and platform engineer focused on building reliable, scalable systems and great developer experience. I care about pragmatic architecture, clean interfaces, and teams that ship with confidence. I share learnings through mentoring, consulting, and writing.
+ I build scalable backend systems and platforms that teams can trust. Passionate about clean design, developer experience, and continuous learning, I share insights through mentoring, consulting, and writing.
  &lt;/div&gt;
  
  &lt;/div&gt;
@@ -213,7 +213,7 @@
  &lt;div class="col-12 col-md-6"&gt;
  &lt;h1&gt;About&lt;/h1&gt;
  &lt;div class="about-me content lead"&gt;
- I'm passionate about building products that works at scale and I believe in learning everyday. I am a mountain person. I love dogs. I like dark themes. Programming is an art for me. I have grown fond of pair programming. I like swimming more than running. I like winter.
+ Engineer by profession, mountain person by soul, Londoner by postcode. I enjoy building systems that scale, learning something new daily, and convincing people dark mode is objectively superior. Dogs are great, winters are better, and pair programming proves that suffering through bugs is more fun together. Swimming is my cardio of choice, running and I have agreed to stay acquaintances.
  &lt;/div&gt;
  
  &lt;/div&gt;
