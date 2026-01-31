@@ -93,7 +93,7 @@ twitter = "realadityamisra"
 
 [params.favicons]
 source = "images/showcase/showcase.png"
-favicon = "/icons/icon-32.png"
+favicon = "/img/rocket.jpg"
 
 [build]
   writeStats = true

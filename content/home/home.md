@@ -22,7 +22,7 @@ draft = false
 {{< /platform-links >}}
 
 <div class="home-cta-group">
-  <a class="btn btn-primary" href="mailto:amisra14@yahoo.co.uk?subject=Mentoring%20or%20Consulting%20Inquiry">Start a conversation</a>
+  <a class="btn btn-primary" href="https://calendly.com/adiitya14" target="_blank" rel="noopener">Start a conversation</a>
 </div>
 
 {{< /showcase-section >}}
@@ -41,8 +41,8 @@ I share updates and ideas on building scalable systems, developer experience, an
 The latest work shows up on my Medium and GitHub profiles.
 
 <div class="d-flex flex-wrap gap-2 mt-3">
-  <a class="btn btn-primary" href="https://medium.com/@aditya_misra5">Read on Medium</a>
-  <a class="btn btn-frameless" href="https://github.com/AdityaMisra">Explore GitHub</a>
+  <a class="btn btn-primary" href="https://medium.com/@aditya_misra5" target="_blank" rel="noopener">Read on Medium</a>
+  <a class="btn btn-frameless" href="https://github.com/AdityaMisra" target="_blank" rel="noopener">Explore GitHub</a>
 </div>
 {{< /text-section >}}
 
@@ -53,8 +53,7 @@ If you’re looking for guidance on backend/platform engineering, scaling produc
 let’s connect and see if we’re a fit.
 
 <div class="d-flex flex-wrap gap-2 mt-3">
-  <a class="btn btn-primary" href="mailto:amisra14@yahoo.co.uk?subject=Mentoring%20or%20Consulting%20Inquiry">Request a session</a>
-  <a class="btn btn-frameless" href="mailto:amisra14@yahoo.co.uk?subject=Project%20Consulting%20Inquiry">Discuss a project</a>
+  <a class="btn btn-primary" href="https://calendly.com/adiitya14" target="_blank" rel="noopener">Request a session</a>
 </div>
 {{< /text-section >}}
 
@@ -62,7 +61,7 @@ let’s connect and see if we’re a fit.
 I publish long-form notes and learnings on Medium. Follow along for updates on engineering, systems, and growth.
 
 <div class="mt-3">
-  <a class="btn btn-primary" href="https://medium.com/@aditya_misra5">View all articles</a>
+  <a class="btn btn-primary" href="https://medium.com/@aditya_misra5" target="_blank" rel="noopener">View all articles</a>
 </div>
 {{< /text-section >}}
 
