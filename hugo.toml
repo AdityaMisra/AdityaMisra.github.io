@@ -102,6 +102,8 @@ twitter = "realadityamisra"
   URL = "css/bootstrap-print.css"
 
 [[params.plugins.js]]
+  URL = "js/portfolio-theme.js"
+[[params.plugins.js]]
   URL = "js/rad-animations.js"
 [[params.plugins.js]]
   URL = "js/sticky-header.js"
