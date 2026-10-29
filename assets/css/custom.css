@@ -78,3 +78,9 @@ section img{box-shadow:none!important}
 .theme-toggle{font-size:.85rem!important}
 @media(min-width:992px){.showcase .row>div:first-child,.showcase-section .row>div:first-child{flex:0 0 57%;max-width:57%}.showcase .row>div:last-child,.showcase-section .row>div:last-child{flex:0 0 43%;max-width:43%}}
 @media(max-width:991px){.navbar-nav{gap:0}.showcase .row>div,.showcase-section .row>div{width:100%;max-width:100%}.showcase img,.showcase-section img{max-height:340px!important}}
+
+
+/* Intentional text-led hero: suppress the stock desk photograph. */
+.showcase .showcase__image,.showcase .showcase__image-wrapper,.showcase-section .showcase__image,.showcase .row>div:has(>img),.showcase .row>div:has(.showcase__image),.showcase-section .row>div:has(>img){display:none!important}
+@media(min-width:992px){.showcase .row>div:first-child,.showcase-section .row>div:first-child{flex:0 0 100%;max-width:880px}.showcase .row>div:last-child:not(:first-child),.showcase-section .row>div:last-child:not(:first-child){max-width:880px}}
+.showcase h1,.showcase-section h1{max-width:950px}
