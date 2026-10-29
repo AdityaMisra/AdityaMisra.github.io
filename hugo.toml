@@ -5,10 +5,30 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON", "Markdown", "LLMSTXT", "LLMSFULL"]
+  section = ["HTML", "RSS", "Markdown"]
   taxonomy = ["HTML", "RSS"]
-  term = ["HTML", "RSS"]
+  term = ["HTML", "RSS", "Markdown"]
+  page = ["HTML", "Markdown"]
+
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = false
+
+[mediaTypes."text/markdown"]
+  suffixes = ["md"]
+
+[outputFormats.LLMSTXT]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+
+[outputFormats.LLMSFULL]
+  mediaType = "text/plain"
+  baseName = "llms-full"
+  isPlainText = true
 
 [taxonomies]
   tag = "tags"
@@ -81,6 +101,8 @@ twitter = "realadityamisra"
 [[params.plugins.css]]
   URL = "css/bootstrap-print.css"
 
+[[params.plugins.js]]
+  URL = "js/portfolio-theme.js"
 [[params.plugins.js]]
   URL = "js/rad-animations.js"
 [[params.plugins.js]]
