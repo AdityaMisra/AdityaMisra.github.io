@@ -1,0 +1,12 @@
+# {{ .Site.Title }}
+
+{{ .Site.Params.description }}
+
+{{ range .Site.RegularPages }}
+## {{ .Title }}
+
+Canonical URL: {{ .Permalink }}
+
+{{ .RawContent }}
+
+{{ end }}
