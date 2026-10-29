@@ -1,0 +1,11 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+Website: {{ .Site.BaseURL }}
+Markdown index: {{ "index.md" | absURL }}
+Full content: {{ "llms-full.txt" | absURL }}
+
+## Pages
+{{ range .Site.RegularPages }}- [{{ .Title }}]({{ .Permalink }}): {{ .Description | default (.Summary | plainify | truncate 140) }}
+{{ end }}
