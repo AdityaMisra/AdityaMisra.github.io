@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }}</title><meta name="description" content="{{ .Site.Params.description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<style>
+:root{color-scheme:light;--bg:#faf9f5;--fg:#1c211e;--muted:#59635d;--line:#dedfd8;--green:#426b55;--panel:#fffefa}
+:root[data-theme=dark]{color-scheme:dark;--bg:#121714;--fg:#f2f3ee;--muted:#adb9b0;--line:#37413a;--green:#b8dfa0;--panel:#1b231d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--green)}.wrap{max-width:1120px;margin:auto;padding:0 28px}header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;background:var(--bg)}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}.brand{font-weight:700;font-size:1.12rem;text-decoration:none}.links{display:flex;gap:24px;flex-wrap:wrap;align-items:center}.links a{font-size:.85rem;text-decoration:none}.toggle{background:transparent;color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:8px 13px;cursor:pointer}.hero{padding:110px 0 115px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(210px,.65fr);gap:90px}.eyebrow{font-size:.72rem;letter-spacing:.17em;text-transform:uppercase;color:var(--green);font-weight:700}.hero h1{font-size:clamp(3.5rem,7vw,6.8rem);line-height:1.07;letter-spacing:-.07em;font-weight:650;margin:18px 0 25px}.lead{font-size:clamp(1.15rem,2vw,1.55rem);line-height:1.5;max-width:700px;color:var(--muted)}.button{display:inline-block;padding:12px 20px;background:var(--fg);color:var(--bg);border-radius:7px;text-decoration:none;font-weight:600;margin-top:20px}.button:hover{background:var(--green);color:var(--bg)}.aside{border-left:1px solid var(--line);padding-left:28px;align-self:center}.aside p{margin:10px 0 28px;color:var(--muted)}section.content{padding:72px 0;border-top:1px solid var(--line);scroll-margin-top:90px}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.section-head h2{font-size:clamp(2rem,4vw,3.4rem);letter-spacing:-.055em;font-weight:600;line-height:1.2;margin:8px 0 30px}.section-body{max-width:850px;color:var(--muted)}.section-body h3{color:var(--fg)}.section-body a{color:var(--green)}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:10px;padding:24px;background:var(--panel)}.card h3{margin:0 0 8px;font-size:1.15rem}.card p{color:var(--muted);margin:0}.card a{text-decoration:none}.card:hover{border-color:var(--green)}footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.9rem}@media(max-width:760px){.nav{align-items:flex-start;padding-top:16px;padding-bottom:16px;flex-direction:column}.links{gap:12px}.hero{grid-template-columns:1fr;gap:25px;padding:75px 0}.aside{padding-left:20px}.cards{grid-template-columns:1fr}section.content{padding:50px 0}}
+</style>
+<script>(function(){try{var v=localStorage.getItem("portfolio-theme");document.documentElement.dataset.theme=v||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}})()</script>
+</head>
+<body>
+<header><nav class="wrap nav" aria-label="Main navigation"><a class="brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a><div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#writing">Writing</a><a href="#mentoring">Mentoring</a><button class="toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">Theme</button></div></nav></header>
+<main class="wrap">
+<section class="hero"><div><div class="eyebrow">Software engineer · London</div><h1>Hi, I'm Aditya.</h1><p class="lead">{{ .Site.Params.description }}</p><a class="button" href="#experience">Explore my work ↗</a></div><aside class="aside"><div class="eyebrow">About this site</div><p>Engineering, writing, mentoring and continuous learning.</p><div class="eyebrow">Location</div><p>London, United Kingdom</p><div class="eyebrow">Machine readable</div><p><a href="/llms.txt">AI index</a> · <a href="/index.md">Markdown</a></p></aside></section>
+{{ range .Site.Params.sections }}
+{{ $name := . }}
+{{ $data := index $.Site.Data $name }}
+{{ $page := $.Site.GetPage (printf "/%s" $name) }}
+<section class="content" id="{{ $name | urlize }}"><div class="section-head"><div><div class="eyebrow">{{ $name }}</div><h2>{{ $name | humanize | title }}</h2></div></div>
+<div class="section-body">
+{{ with $page }}{{ .Content }}{{ end }}
+{{ with $data }}
+{{ if reflect.IsMap . }}
+{{ range $key,$value := . }}
+{{ if reflect.IsMap $value }}
+<div class="card" style="margin-bottom:16px"><h3>{{ $key | humanize | title }}</h3>{{ range $k,$v := $value }}{{ if or (eq (printf "%T" $v) "string") (eq (printf "%T" $v) "template.HTML") }}<p><strong>{{ $k | humanize }}:</strong> {{ $v | markdownify }}</p>{{ end }}{{ end }}</div>
+{{ else if eq (printf "%T" $value) "string" }}<p>{{ $value | markdownify }}</p>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ $pages := where $.Site.RegularPages "Section" $name }}
+{{ with $pages }}<div class="cards">{{ range first 9 . }}<article class="card"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary | plainify | truncate 170 }}</p></article>{{ end }}</div>{{ end }}
+</div></section>
+{{ end }}
+<section class="content" id="all-writing"><div class="eyebrow">Latest writing</div><h2>Notes & articles</h2><div class="cards">{{ range first 6 (where .Site.RegularPages "Section" "posts") }}<article class="card"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary | plainify | truncate 150 }}</p></article>{{ end }}</div></section>
+</main><footer><div class="wrap">© {{ now.Year }} {{ .Site.Title }} · <a href="/llms.txt">llms.txt</a> · <a href="/index.md">Markdown</a></div></footer>
+<script>(function(){var b=document.getElementById("theme-toggle");function update(){var dark=document.documentElement.dataset.theme==="dark";b.textContent=dark?"☀ Light":"☾ Dark";b.setAttribute("aria-label","Switch to "+(dark?"light":"dark")+" mode")}b.addEventListener("click",function(){var next=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=next;try{localStorage.setItem("portfolio-theme",next)}catch(e){}update()});update()})()</script>
+</body></html>
