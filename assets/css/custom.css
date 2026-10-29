@@ -52,3 +52,29 @@ footer,.footer{background:#f1f0eb!important;border-top:1px solid var(--line);col
 .theme-toggle:hover{border-color:var(--accent)}
 .theme-toggle:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media(max-width:767px){.theme-toggle{right:.75rem;bottom:.75rem}}
+
+
+/* Adritian-specific layout overrides. These target the theme's actual showcase and navigation. */
+body.home,body{overflow-x:hidden}
+.header,.navbar,.navbar-expand-lg{box-shadow:none!important}
+.header .container,.navbar .container{max-width:1180px!important}
+.navbar-brand,.header .navbar-brand{font-size:1.15rem!important;font-weight:700!important;letter-spacing:-.035em}
+.navbar-brand img,.header .navbar-brand img{max-height:44px}
+.navbar-nav{gap:clamp(.25rem,1vw,1rem)}
+.navbar-nav .nav-link{font-size:.8rem!important;font-weight:500!important;letter-spacing:0!important;text-transform:none!important}
+.showcase,.showcase-section,#showcase,section.showcase{min-height:0!important;padding:clamp(5rem,9vw,8rem) 0!important;background:transparent!important}
+.showcase .container,.showcase-section .container{max-width:1160px!important}
+.showcase .row,.showcase-section .row{align-items:center!important}
+.showcase h1,.showcase__title,.showcase .display-1,.showcase-section h1{font-size:clamp(3.2rem,6.6vw,6.2rem)!important;line-height:1.06!important;letter-spacing:-.07em!important;font-weight:650!important;margin-bottom:1.75rem!important}
+.showcase h2,.showcase__subtitle,.showcase-section h2{font-size:clamp(1.3rem,2.4vw,2rem)!important;font-weight:400!important;line-height:1.35!important;letter-spacing:-.03em!important}
+.showcase p,.showcase__description,.showcase-section p{color:var(--muted)!important;font-size:clamp(1rem,1.3vw,1.15rem)!important;line-height:1.75!important}
+.showcase img,.showcase__image img,.showcase-section img{border-radius:12px!important;box-shadow:none!important;max-height:440px!important;object-fit:cover}
+.showcase .col-lg-6,.showcase-section .col-lg-6{min-width:0}
+section h2,section .section-title{font-weight:600!important}
+section .container{max-width:1160px!important}
+section .row{row-gap:2rem}
+a.btn,a.button,.btn{padding:.8rem 1.3rem!important;box-shadow:none!important}
+section img{box-shadow:none!important}
+.theme-toggle{font-size:.85rem!important}
+@media(min-width:992px){.showcase .row>div:first-child,.showcase-section .row>div:first-child{flex:0 0 57%;max-width:57%}.showcase .row>div:last-child,.showcase-section .row>div:last-child{flex:0 0 43%;max-width:43%}}
+@media(max-width:991px){.navbar-nav{gap:0}.showcase .row>div,.showcase-section .row>div{width:100%;max-width:100%}.showcase img,.showcase-section img{max-height:340px!important}}
